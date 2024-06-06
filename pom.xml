@@ -7,7 +7,7 @@
 	  <repository>
 	    <id>maven</id>
 	    <name>aws</name>
-	    <url>https://maven-domain-${account_id}.d.codeartifact.ap-south-1.amazonaws.com/maven/maven-repo/</url>
+	    <url>https://maven-domain-${env.account_id}.d.codeartifact.ap-south-1.amazonaws.com/maven/maven-repo/</url>
 	  </repository>
 </distributionManagement>
 </project>
