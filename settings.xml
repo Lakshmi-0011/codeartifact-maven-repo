@@ -8,9 +8,9 @@
 
   <servers>
     <server>
-      <id>abc-dev</id>
+      <id>maven</id>
       <username>aws</username>
-      <password><<token>></password>
+      <password>${env.codeartifact_token}</password>
     </server>
   </servers>
 
