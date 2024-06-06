@@ -5,9 +5,9 @@
   <version>0.0.2</version>
  <distributionManagement>
 	  <repository>
-	    <id>abc-dev</id>
-	    <name>abc-dev</name>
-	    <url>https://abc-<<account-id>>.d.codeartifact.us-east-2.amazonaws.com/maven/dev/</url>
+	    <id>maven</id>
+	    <name>aws</name>
+	    <url>https://maven-domain-${account_id}.d.codeartifact.ap-south-1.amazonaws.com/maven/maven-repo/</url>
 	  </repository>
 </distributionManagement>
 </project>
